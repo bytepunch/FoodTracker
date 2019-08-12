@@ -12,6 +12,7 @@
 		543BDBA623001C5600415C8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543BDBA423001C5600415C8A /* Main.storyboard */; };
 		543BDBA823001C5800415C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 543BDBA723001C5800415C8A /* Assets.xcassets */; };
 		543BDBAB23001C5800415C8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543BDBA923001C5800415C8A /* LaunchScreen.storyboard */; };
+		543BDBB323014F4900415C8A /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BDBB223014F4900415C8A /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		543BDBA723001C5800415C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		543BDBAA23001C5800415C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		543BDBAC23001C5800415C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		543BDBB223014F4900415C8A /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		543BDB9F23001C5600415C8A /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
+				543BDBB423014F7F00415C8A /* New Group */,
 				543BDBA023001C5600415C8A /* AppDelegate.swift */,
 				543BDBA223001C5600415C8A /* ViewController.swift */,
+				543BDBB223014F4900415C8A /* RatingControl.swift */,
 				543BDBA423001C5600415C8A /* Main.storyboard */,
 				543BDBA723001C5800415C8A /* Assets.xcassets */,
 				543BDBA923001C5800415C8A /* LaunchScreen.storyboard */,
 				543BDBAC23001C5800415C8A /* Info.plist */,
 			);
 			path = FoodTracker;
+			sourceTree = "<group>";
+		};
+		543BDBB423014F7F00415C8A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				543BDBA323001C5600415C8A /* ViewController.swift in Sources */,
+				543BDBB323014F4900415C8A /* RatingControl.swift in Sources */,
 				543BDBA123001C5600415C8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
